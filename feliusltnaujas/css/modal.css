@@ -1,0 +1,118 @@
+@keyframes fadein {
+    from {opacity: 0};
+    to {opacity: 1};
+    }
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#modalcontainer {
+    position: fixed;
+    z-index: 100;
+    background-color: #323840;
+    width: 100%;
+    height: 100%;
+}
+
+#modalcontent {
+    width: auto;
+    height: 600px;
+    display: block;
+    margin: auto auto auto auto;
+    animation-name: fadein;
+    animation-duration: 0.5s;
+}
+
+.displaymodal {
+    display: block;
+}
+
+.displaynone {
+    display: none;
+}
+
+#modalcontainer h4 {
+    text-align: end;
+    padding-right: 10px;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.changeButtons {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.next {
+    width: 46%;
+    font-size: 30px;
+    text-align: end;
+}
+
+.previous {
+    width: 46%;
+    font-size: 30px;
+}
+
+span {
+    cursor: pointer;
+}
+
+#imgcontainer img {
+    cursor: pointer;
+}
+
+#closeModal img {
+    height: 20px;
+    width: auto;
+}
+
+#next img {
+    height: 20px;
+    width: auto;
+    transform: rotate(-90deg);
+}
+
+#prev img {
+    height: 20px;
+    width: auto;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 980px) {
+
+    #modalcontent {
+        height: 550px;
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+    #modalcontent {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    #modalcontent {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #modalcontent {
+        height: 250px;
+    }
+}

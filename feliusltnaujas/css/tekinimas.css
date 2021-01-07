@@ -1,0 +1,363 @@
+@font-face {
+    src: url(../fonts/Kodchasan/Kodchasan-Bold.ttf);
+    font-family: kodchasanbold;
+}
+
+@font-face {
+    src: url(../fonts/Kodchasan/Kodchasan-Regular.ttf);
+    font-family: kodchasanreg;
+}
+
+@font-face {
+    src: url(../fonts/Kodchasan/Kodchasan-Medium.ttf);
+    font-family: kodchasanmed;
+}
+
+@font-face {
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-family: montserratregular;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (min-width: 860px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .section1 {
+        background-color: white;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section2 {
+        background-color: #ebebeb;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+
+    .section1_content {
+        width: 80%;
+        height: 400px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section1_text {
+        width: 50%;
+        height: 100%;
+    }
+
+    .section1_text h3 {
+        font-family: kodchasanbold;
+        font-size: 36px;
+    }
+
+    .section1_text p {
+        font-family: montserratregular;
+        font-size: 22px;
+    }
+
+    .section1_video {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section1_video iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    h4 {
+        font-family: kodchasanreg;
+    }
+
+    p {
+        font-family: montserratregular;
+    }
+
+    .section2_content {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+
+    }
+
+    .orangestripe {
+        width: 60px;
+        height: 10px;
+        background-color: #FC7707;
+        margin-top: 37px;
+    }
+
+    .section2headers {
+        display: flex;
+        width: 100%;
+    }
+
+    .section2headers h4 {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .imagescontainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        
+    }
+
+    .imagescontainer div {
+        width: 22%;
+        margin: 1%;
+        height: 350px;
+        overflow: hidden;
+        cursor: pointer;
+ 
+    }
+
+    .imagescontainer div img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .carouselcontainer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 859px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .section1 {
+        background-color: white;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section2 {
+        background-color: #ebebeb;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+
+    .section1_content {
+        width: 100%;
+        height: 750px;
+        margin: auto;
+    }
+
+    .section1_text {
+        width: 100%;
+        height: 300px;
+    }
+
+    .section1_text h3 {
+        font-family: kodchasanbold;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .section1_text p {
+        font-family: montserratregular;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .section1_video {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section1_video iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    h4 {
+        font-family: kodchasanreg;
+    }
+
+    p {
+        font-family: montserratregular;
+    }
+
+    .section2_content {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        padding-bottom: 50px;
+
+    }
+
+    .orangestripe {
+        width: 60px;
+        height: 10px;
+        background-color: #FC7707;
+        margin-top: 37px;
+    }
+
+    .section2headers {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .section2headers h4 {
+        font-size: 20px;
+        margin-left: 15px;
+      
+    }
+
+    .imagescontainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        
+    }
+
+    .imagescontainer div {
+        width: 31.333%;
+        margin: 1%;
+        height: 350px;
+        overflow: hidden;
+        cursor: pointer;
+ 
+    }
+
+    .imagescontainer div img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .carouselcontainer {
+        display: none;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 474px) {
+
+    .imagescontainer {
+        display: none;
+
+        
+    }
+
+    .section2_content {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding-bottom: 50px;
+
+    }
+
+    .imagescontainer div {
+        width: 90%;
+        height: 300px;
+        margin: 1%;
+        border: 1px solid black;
+    
+
+    }
+
+      /* carousel */
+      .carouselcontainer {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+
+    .slider {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 300px;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+
+    .slider-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 700%;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+        pointer-events: none;
+        
+    }
+
+    .slide-img {
+        height: 100%;
+        overflow: hidden;
+        background-color: rgb(179, 179, 179);
+    }
+
+    .slide-img img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    /* carousel */
+}
+
+@media only screen and (max-width: 364px) {
+
+    .carousel div {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto 0 auto;
+    
+    }
+
+    .slider-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 700%;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+    }
+
+
+
+}

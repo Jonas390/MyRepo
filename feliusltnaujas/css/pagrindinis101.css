@@ -1,0 +1,705 @@
+
+@font-face {
+    src: url(../fonts/Kodchasan/Kodchasan-Bold.ttf);
+    font-family: kodchasanbold;
+}
+
+@font-face {
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-family: montserratregular;
+}
+
+@font-face {
+    src: url(../fonts/Kodchasan/Kodchasan-Regular.ttf);
+    font-family: kodchasanreg;
+}
+
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (min-width: 829px) {
+
+
+    #heroimage {
+        width: 100%;
+        height: 447px;
+        background-image: url(../img/13.jpg);
+        background-repeat: no-repeat;
+        background-position-y: -1600px;
+        background-position-x: -200px;
+        transform: rotateY(180deg);
+        overflow: hidden;
+        display: flex;
+  
+    }
+    .heroimgtext * {
+        transform: rotateY(-180deg);
+    }
+
+    .heroimgtext {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .heroimgtext img {
+        width: 20px;
+        height: auto;
+    } 
+
+    .heroimgtext h1 {
+        color: white;
+        font-family: kodchasanbold;
+        margin: auto 0 50px auto;
+        width: 60%;
+        
+    }
+
+    .heroimgtext p {
+        color: white;
+        margin: 0 0 auto auto;
+        width: 60%;
+        font-size: 20px;
+        font-family: montserratregular;
+    }
+
+    main {
+        background-color: white;
+        width: 80%;
+        margin: auto;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    h3 {
+        margin: 0;
+        font-family: kodchasanbold;
+        font-size: 30px;
+        width: 50%;
+    }
+
+
+    .jobscontainer{
+        display: flex;
+        flex-wrap: wrap;
+        
+
+    }
+
+    .jobscontainer:nth-of-type(2),
+    .jobscontainer:nth-of-type(3),
+    .jobscontainer:nth-of-type(4)
+
+    {
+        margin-top: 5%;
+    }
+
+    .imagescontainer {
+        width: 58%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        
+    }
+
+    .jobscontainer .imagescontainer img {
+        cursor: pointer;
+        object-fit: cover;
+        display: block;
+        height: auto;
+        overflow: hidden;
+    }
+
+
+    /* pictures in 1st container*/
+    .jobscontainer:nth-of-type(1) .imagescontainer img:nth-child(1) {
+        width: 40%;
+    }
+
+    .jobscontainer:nth-of-type(1) .imagescontainer img:nth-child(2) {
+        width: 30%;
+    }
+
+    .jobscontainer:nth-of-type(1) .imagescontainer img:nth-child(3) {
+        width: 30%;
+    }
+    /* pictures in 1st container*/
+    /* pictures in 2nd container*/
+    .jobscontainer:nth-of-type(2) .imagescontainer img:nth-child(1) {
+        width: 30%;
+    }
+
+    .jobscontainer:nth-of-type(2) .imagescontainer img:nth-child(2) {
+        width: 40%;
+    }
+
+    .jobscontainer:nth-of-type(2) .imagescontainer img:nth-child(3) {
+        width: 30%;
+    }
+    /* pictures in 2nd container*/
+    /* pictures in 3rd container*/
+    .jobscontainer:nth-of-type(3) .imagescontainer img:nth-child(1) {
+        width: 20%;
+        
+    }
+
+    .jobscontainer:nth-of-type(3) .imagescontainer img:nth-child(2) {
+        width: 50%;
+       
+        
+    }
+
+    .jobscontainer:nth-of-type(3) .imagescontainer img:nth-child(3) {
+        width: 30%;
+ 
+    }
+    /* pictures in 3rd container*/
+    /* pictures in 4th container*/
+    .jobscontainer:nth-of-type(4) .imagescontainer img:nth-child(1) {
+        width: 20%;
+    }
+
+    .jobscontainer:nth-of-type(4) .imagescontainer img:nth-child(2) {
+        width: 18%;
+    }
+
+    .jobscontainer:nth-of-type(4) .imagescontainer img:nth-child(3) {
+        width: 18%;
+    }
+    .jobscontainer:nth-of-type(4) .imagescontainer img:nth-child(4) {
+        width: 22%;
+    }
+    .jobscontainer:nth-of-type(4) .imagescontainer img:nth-child(5) {
+        width: 22%;
+    }
+    /* pictures in 4th container*/
+
+
+
+
+    .cardtitle {
+        width: 40%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .cardtitlebgopened:nth-of-type(1), .cardtitlebgopened:nth-of-type(3) {
+        background-image: linear-gradient(to bottom, #3238400c, #3238400c);
+        background-repeat: no-repeat;
+        background-size: 800px 400px;
+        transition: 0.5s;
+    }
+
+    .cardtitlebgopened:nth-of-type(2), .cardtitlebgopened:nth-of-type(4) {
+        background-image: linear-gradient(to bottom, #3238400c, #3238400c);
+        background-repeat: no-repeat;
+        background-size: 800px 400px;
+        transition: 0.5s;
+        background-position: top right;
+        
+        
+    }
+
+    .cardtitlebgclosed:nth-of-type(1), .cardtitlebgclosed:nth-of-type(3) {
+        background-image: linear-gradient(to bottom, #3238400c, #3238400c);
+        background-repeat: no-repeat;
+        background-size: 0px 0px;
+        transition: 0.5s;
+        transition-delay: 0.5s;
+    }
+
+    .cardtitlebgclosed:nth-of-type(2), .cardtitlebgclosed:nth-of-type(4) {
+        background-image: linear-gradient(to bottom, #3238400c, #3238400c);
+        background-repeat: no-repeat;
+        background-size: 0px 0px;
+        transition: 0.5s;
+        background-position: top right;
+        transition-delay: 0.5s;
+    }
+
+
+
+    .button {
+        font-family: kodchasanbold;
+        margin-top: 20px;
+        background-color: #FC7707;
+        overflow: hidden;
+        display: flex;
+        cursor: pointer;
+        color: white;
+    }
+
+    .cardtitle:nth-of-type(2) .button {
+        float: right;
+    }
+
+    .cardtitle:nth-of-type(2) h3 {
+        float: right;
+        width: 100%;
+        text-align: end;
+    }
+
+    .button:not(:hover){
+        width: 70px;
+        height: 20px;
+        transition: 0.5s;
+        transition-delay: 0.5s;
+    }
+
+    .button:hover{
+        width: 200px;
+        height: 60px;
+        transition: 0.5s;
+        
+    }
+
+    .button:hover .text {
+        opacity: 1;
+        transition: 0.5s;
+        transition-delay: 0.5s;
+    }
+
+    .button:not(:hover) .text {
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .button div {
+        margin: auto;
+    }
+
+
+
+    .cardtitle:nth-of-type(1) .button, .cardtitle:nth-of-type(1) h3 {
+        margin-left: 5px;
+    }
+
+    .cardtitle:nth-of-type(2) .button, .cardtitle:nth-of-type(2) h3 {
+        margin-right: 5px;
+    }
+
+    .cardtitle:nth-of-type(1) img, .cardtitle:nth-of-type(3) img {
+        width: 15px;
+        height: auto;
+    }
+
+    .cardtitle:nth-of-type(2) img, .cardtitle:nth-of-type(4) img {
+        width: 15px;
+        height: auto;
+        transform: rotateY(-180deg);
+    }
+
+    .cardtitle:nth-of-type(2) img:nth-of-type(2), .cardtitle:nth-of-type(4) img:nth-of-type(2) {
+        display: none;
+    }
+
+    .cardtitle a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .cardtitle a:visited {
+        color: white;
+    }
+
+    .carouselcontainer {
+        display: none;
+    }
+
+    .orangestripe {
+       display: none;
+    }
+
+    .jumpup img {
+        height: 15px;
+        width: auto;
+    }
+
+    .jumpup {
+       display: none;
+    }
+
+    #jumpup {
+        cursor: pointer;
+    }
+
+    .carouselcontainer {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 828px) {
+    #heroimage {
+        width: 100%;
+        height: 400px;
+        background-image: url(../img/13.jpg);
+        background-repeat: no-repeat;
+        background-size: 900px auto;
+        background-position: 0 -350px;
+        overflow: hidden;
+        display: flex;
+  
+    }
+
+    .heroimgtext {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .heroimgtext img {
+        width: 10px;
+        height: auto;
+    } 
+
+    .heroimgtext h1 {
+        color: white;
+        font-family: kodchasanreg;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .heroimgtext p {
+        color: white;
+        margin: 50px auto auto auto;
+        width: 60%;
+        font-size: 15px;
+        font-family: montserratregular;
+    }
+
+    main {
+        background-color: white;
+        width: 100%;
+        margin: auto;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    h3 {
+        position: relative;
+        margin: 0 auto 50px auto;
+        font-family: kodchasanreg;
+        font-size: 30px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .jobscontainer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+
+    }
+
+    .button {
+        font-family: kodchasanbold;
+        margin-top: 20px;
+        width: 319px;
+        height: 45px;
+        background-color: #FC7707;
+        overflow: hidden;
+        display: flex;
+        cursor: pointer;
+        color: white;
+        margin: auto;
+
+    }
+    .button div {
+        margin: auto;
+    }
+
+    .cardtitle img {
+        width: 15px;
+        height: auto;
+    }
+
+    .cardtitle:nth-of-type(2) .button img:nth-of-type(1), .cardtitle:nth-of-type(4) .button img:nth-of-type(1) {
+        display: none;
+    }
+
+    .cardtitle {
+       position: relative;
+    }
+
+    .orangestripe {
+        position: absolute;
+        display: inline-block;
+        top: 10px;
+        left: -60px;
+        width: 60px;
+        height: 10px;
+        background-color: #FC7707;
+    }
+
+    .imagescontainer {
+        display: none;
+        
+    }
+
+    /* carousel */
+    .carouselcontainer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+
+    .slider {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 300px;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+
+    .slider-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 110%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+
+    .slide-img {
+        height: 100%;
+        overflow: hidden;
+        background-color: rgb(179, 179, 179);
+        
+        
+    }
+
+    .slide-img img {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* 4th carousel images */
+    .jobscontainer:nth-of-type(4) .slide-img {
+        width:100%;
+        height: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    .jobscontainer:nth-of-type(4) .slider-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 150%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+    }
+
+    
+/* 4th caorusel images */
+/* carousel */
+    .button {
+        margin-bottom: 50px;
+    }
+
+    .jobscontainer {
+        padding-top: 30px;
+    }
+
+    .jobscontainer br {
+        display: none;
+    }
+
+    .jobscontainer:nth-of-type(2n + 2) {
+        background-color: #F3F3F3;
+    }
+
+    .jumpup img {
+        height: 15px;
+        width: auto;
+    }
+
+    .jumpup {
+        color: #125992;
+        text-transform: uppercase;
+        font-family: montserratregular;
+        padding-top: 20px;
+        text-align: end;
+    }
+
+    #jumpup {
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+        /* carousel */
+        .carouselcontainer {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 300px;
+        }
+    
+        .carousel {
+            width: 100%;
+            height: 300px;
+            border: 1px solid black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .carousel div {
+            width: 50%;
+            height: 100%;
+            margin: 0 auto 0 auto;
+            border: 1px solid black;
+        }
+    
+        .slider {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 300px;
+            overflow: scroll;
+            scrollbar-width: none;
+        }
+    
+        .slider-inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 150%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+            pointer-events: none;
+        }
+    
+        .slide-img {
+            height: 100%;
+            overflow: hidden;
+            background-color: rgb(179, 179, 179);
+        }
+    
+        .slide-img img {
+            object-fit: cover;
+        }
+
+        .heroimgtext p {
+            width: 100%;
+        }
+
+}
+
+@media only screen and (max-width: 430px) {
+        /* carousel */
+        .carouselcontainer {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 300px;
+        }
+    
+        .slider {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 300px;
+            overflow: scroll;
+            scrollbar-width: none;
+        }
+    
+        .slider-inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 305%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+        
+        }
+    
+        .slide-img {
+            background-size: 1fr auto;
+            overflow: hidden;
+            background-color: rgb(179, 179, 179);
+            background-repeat: no-repeat;
+        }
+    
+        .slide-img img {
+            object-fit: cover;
+        }
+    
+    /* 4th carousel images */
+    .jobscontainer:nth-of-type(4) .carousel div {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    .jobscontainer:nth-of-type(4) .slider-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 500%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+    }
+
+    
+    /* 4th caorusel images */
+
+    .heroimgtext p {
+        width: 100%;
+    }
+
+    .jumpup img {
+        height: 15px;
+        width: auto;
+    }
+
+    .jumpup {
+        width: 100%;
+        color: #125992;
+        text-transform: uppercase;
+        font-family: montserratregular;
+        padding-top: 20px;
+        text-align: end;
+    }
+
+    #jumpup {
+        cursor: pointer;
+    }
+
+}
+

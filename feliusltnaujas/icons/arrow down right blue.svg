@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 14.84 18.62"
+   version="1.1"
+   sodipodi:docname="arrow down right blue.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1493"
+     inkscape:window-height="991"
+     id="namedview26"
+     showgrid="false"
+     inkscape:zoom="44.575725"
+     inkscape:cx="7.42"
+     inkscape:cy="9.31"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs22">
+    <style
+       id="style20">.cls-1{fill:#fff;}</style>
+  </defs>
+  <path
+     id="Path_99"
+     data-name="Path 99"
+     class="cls-1"
+     d="M 8.5300001,18.36 A 0.93000001,0.93000001 0 0 1 7.23,18.36 L 1.18,12.3 A 0.92000002,0.92 0 0 1 2.48,11 l 4.5200001,4.47 V 6.28 a 4.45,4.45 0 0 0 -4.47,-4.44 H 0.91999998 a 0.92000002,0.92 0 0 1 0,-1.84 H 2.5300001 A 6.3000001,6.3 0 0 1 8.8,6.28 v 9.21 L 13.3,11 a 0.92000002,0.92 0 0 1 1.3,1.3 l -6.0599999,6.05 z"
+     style="fill:#125992;stroke-width:1;fill-opacity:1" />
+</svg>
